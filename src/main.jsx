@@ -6,6 +6,9 @@ import {initGA} from "./analytics"
 
 import { AuthProvider } from "./context/AuthContext";
 
+initGA();
+
+
 ReactDOM.createRoot(document.getElementById("root")).render(
 
   <AuthProvider>
